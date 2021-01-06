@@ -11,12 +11,10 @@ const cors = require('cors');
 
 app.use(express.static('build'))
 app.use(express.static(__dirname + './build'));
-
 app.use(helmet());
 app.use(cookieParser());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true,"limit": "50mb"}));
-
 app.use(cors())
 
 const PORT = process.env.PORT || 4000;
