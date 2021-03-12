@@ -16,13 +16,18 @@ import {
     OverflowMenu,
     OverflowMenuItem
   } from "carbon-components-react";
-  import { headers, rows } from './../../services/shared';
+  import MainHeaderControl from '../header/MainHeader.component'
 
 class UserListControl extends Component {
     render() {
         return (
             <div className="userList">
-                <DataTable rows={rows} headers={headers} isSortable>
+            <h2>User List</h2>
+            <h2>User List</h2>
+            <h2>User List</h2>
+            <h2>User List</h2>
+            <h2>User List</h2>
+                {/* <DataTable rows={rows} headers={headers} isSortable>
                     {({ rows, headers, getHeaderProps, getRowProps, getTableProps }) => (
                     <TableContainer title="DataTable" description="With overflow menu">
                         <Table {...getTableProps()}>
@@ -55,7 +60,7 @@ class UserListControl extends Component {
                         </Table>
                     </TableContainer>
                     )}
-                </DataTable>
+                </DataTable> */}
             </div>
         )
     }
