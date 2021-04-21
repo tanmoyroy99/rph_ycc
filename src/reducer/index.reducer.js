@@ -1,8 +1,8 @@
 import { combineReducers } from 'redux';
 import { STUDENT_HEADER, STUDENT_LIST } from '../action'
-import studentHeaderData  from './../data/studentHeader.json'
+// import studentHeaderData  from './../data/studentHeader.json'
 
-function studentHeader(state=studentHeaderData, action){
+function studentHeader(state=[], action){
     switch(action.type){
         case STUDENT_HEADER:
             return action.items;
