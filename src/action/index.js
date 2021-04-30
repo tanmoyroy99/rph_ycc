@@ -1,24 +1,10 @@
-export const LOGIN_USER     = "LOGIN_USER";
-export const STUDENT_LIST   = "STUDENT_LIST";
-export const STUDENT_HEADER = "STUDENT_HEADER";
+export const LOGIN_USER             = "LOGIN_USER";
+export const URL_INVENTORY_HEADER   = "URL_INVENTORY_HEADER";
+export const URL_INVENTORY_DATA     = "URL_INVENTORY_DATA";
 
-export function setStudentHeader(data){
-            return {
-                type: STUDENT_HEADER,
-                data
-            }
-        }
-
-export function setStudentList(data){
-            return {
-                type: STUDENT_LIST,
-                data
-            }
-        }
-
-export function setLoginUser(data){
-            return {
-                type: STUDENT_LIST,
-                data
-            }
-        }
+export function setInventoryHeader(data){
+    return {
+        type: URL_INVENTORY_HEADER,
+        data
+    }
+}

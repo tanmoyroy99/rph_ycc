@@ -1,0 +1,30 @@
+[
+    {
+        "key": "url_id",
+        "header": "URL ID"
+    },
+    {
+        "key": "url",
+        "header": "URL"
+    },
+    {
+        "key": "geo",
+        "header": "Geo"
+    },
+    {
+        "key": "category",
+        "header": "Category"
+    },
+    {
+        "key": "compliance_status",
+        "header": "Compliance Status"
+    },
+    {
+        "key": "sevierity",
+        "header": "Sevierity"
+    },
+    {
+        "key": "due_date",
+        "header": "Due Date"
+    }
+]

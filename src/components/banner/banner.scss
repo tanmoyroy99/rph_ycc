@@ -1,0 +1,46 @@
+@media (min-width: 20rem){
+    .compliance-dashboard-banner{
+        margin-top: 48px;
+        padding-top: 50px;
+        background: #ffffff;
+        background-position: right 0px;
+        opacity: 1;
+        margin-bottom: 28px;
+        padding-right: 58px;
+        padding-bottom: 20px;
+        h1{
+            margin-bottom: 25px;
+            font-size: 54px;
+        }
+        p{
+            font-size: 14px;
+            color: #000000;
+        }
+        
+        
+    }
+} 
+
+@media (min-width: 66rem){
+    .compliance-dashboard-banner{
+        margin-top: 48px;
+        padding-top: 50px;
+        background: #ffffff url('./../../assets/images/header_pims.svg') no-repeat;
+        background-position: right 0px;
+        opacity: 1;
+        margin-bottom: 28px;
+        padding-right: 58px;
+        padding-bottom: 20px;
+        h1{
+            margin-bottom: 25px;
+            font-size: 54px;
+        }
+        p{
+            font-size: 14px;
+            color: #000000;
+        }
+        
+        
+    }
+}
+
