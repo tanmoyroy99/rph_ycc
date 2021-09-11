@@ -1,0 +1,98 @@
+.compliance-dashboard-banner{
+    margin-bottom: 1px;
+}
+.login_wrapper{
+    background-image: url(//1.cms.s81c.com/sites/default/files/2020-02-03/Leadspace.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+
+    .login_insights{
+        padding: 10px 0 0 36px;
+        margin-bottom: 0px;
+        color: #fff;
+        font-size: 24px;
+    }
+    .complaint_vs_non_title{
+        margin-bottom: 18px;
+        color: #000;
+        font-size: 24px;
+        padding-left: 20px;
+    }
+    .complaint_category{
+        margin-bottom: 18px;
+        color: #000;
+        font-size: 24px;
+    }
+    .donut_pie_chart_wrap{
+        background:#fff;
+        margin: 0 0 20px 0;
+    }
+    .login_insights_inventory{
+        background: #fff;
+        padding:20px 20px 0px 20px;
+        h2{
+            font-size: 72px;
+        }
+        p{
+            font-size: 24px;
+            font-style: normal;
+        }
+        span{
+            display: inline-block;
+            width: 100%;
+            text-align: right;
+            color: #0F62FE;
+            cursor: pointer;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        
+    }
+    .login_wrap{
+        background: #fff;
+        margin-top: 20px;
+        padding:25px 15px;
+        margin-bottom: 20px;
+        p{
+            font-size: 14px;
+            font-style: normal;
+            color: #5C5C5C;
+            margin-bottom: 20px;;
+        }
+        a{
+            display: block;
+            text-decoration: none;
+            font-size: 14px;
+            color: #0F62FE;
+            margin-bottom: 18px;
+        }
+        .help_icon{
+            color:#525252;
+            cursor: pointer;
+            text-align: right;
+        }
+        .loginForm{
+            background: #fff;
+            padding: 20px 20px 0px 20px;
+            width: 99%;
+            margin: 1px;
+            button{
+                max-width: 100%;
+                width: 50%;
+                padding: 10px;
+                div {
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    color: #fff;
+                    font-weight: bold;
+                }
+            }
+            .inputbox{
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
