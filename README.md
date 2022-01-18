@@ -1,2 +1,2 @@
-# PIMS
-Privacy Information Management System
+# JYCC
+JYCC
